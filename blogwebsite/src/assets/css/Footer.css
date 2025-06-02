@@ -1,0 +1,47 @@
+.footer-section {
+  min-height: 70vh;
+  background: #214252;
+  color: #fff;
+}
+.footer-item {
+  list-style: none;
+}
+.footer-item > a {
+  text-decoration: none;
+  color: #ffffffb7;
+  font-size: 13px;
+}
+.about-us {
+  color: #ffffffb7;
+  font-size: 13px;
+}
+.social {
+  display: flex;
+  gap: 10px;
+}
+.social > a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #214252;
+}
+.recentImg {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+.recentpost {
+  display: flex;
+  text-decoration: none;
+  color: #ffffffb7;
+}
+
+.recentpost:hover {
+  text-decoration: none !important;
+  color: #fff !important;
+}

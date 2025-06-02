@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #214252 !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 900;
+}
+.nav-link {
+  color: #ffffff79 !important;
+  text-transform: uppercase !important;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+.active {
+  color: #ffffff !important;
+}
+
+.search-button {
+  background: transparent;
+  border: 2px solid #ffffff9e;
+  border-radius: 5px;
+}
+
+/* logout */
+.btn-logout {
+  width: 100px;
+  background: #214252;
+  color: #fff;
+}
+.btn-logout:hover {
+  color: #000 !important;
+  border: 1px solid #214252 !important;
+}

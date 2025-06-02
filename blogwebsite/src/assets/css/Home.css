@@ -1,0 +1,56 @@
+.hero-banner-section {
+  height: 60vh !important;
+}
+.carousel-inner {
+  height: 90vh !important;
+}
+.carousel-item {
+  height: 100% !important;
+  width: 100% !important;
+}
+.carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: top !important;
+}
+.carousel-caption {
+  padding-bottom: 80px !important;
+}
+.slider-heading {
+  font-size: 45px;
+  font-weight: 900;
+}
+.slider-button {
+  height: 10px !important;
+  width: 40px !important;
+  border-radius: 10px !important;
+}
+
+/* Blog Card */
+.blogSection {
+  margin-bottom: 40px !important;
+}
+.BlogImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.PostDate {
+  color: #5c5b5b;
+}
+.ReadMoreButton {
+  width: 50%;
+  height: 40px;
+  background: transparent;
+  border-radius: 7px;
+  border: 1px solid #214252;
+  transition: all 0.6s ease;
+}
+.ReadMoreButton:hover {
+  background: #214252;
+  color: #fff;
+}
+
